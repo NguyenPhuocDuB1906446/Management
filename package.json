@@ -1,0 +1,30 @@
+{
+  "name": "manage-clients",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server/app.js",
+    "dev": "nodemon server/app.js"
+  },
+  "author": "Nguyen Phuoc Du",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.1",
+    "mongoose-type-email": "^1.0.11",
+    "mongoose-unique-array": "^0.3.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-ui-express": "^4.0.6",
+    "vue-server-renderer": "^2.7.14",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
